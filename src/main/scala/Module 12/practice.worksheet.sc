@@ -77,3 +77,37 @@ matchOption(Some(5))
 matchOption(None)
 
 val x = 1
+
+
+def matchTuples(t: (Int, Boolean, String)): String = t match
+    case(1, flag, string) => s"a 1 followed by $flag and $string"
+    case(i, true, "Fred") => s"a true Fred with int $i"
+    case(a, b, c)         => s"Some other tuple int $a, flag $b, string $c"
+
+matchTuples(1, false, "Sally")
+matchTuples(4, true, "Fred")
+matchTuples(2, false, "shalgham")
+
+
+def matchLists(l: List[Int]): String = l match
+    case 1 :: 2 :: rest => s"A 1, 2 list followed by $rest"
+    case a :: b :: _      => s"A list with at least 2 elements, starting with $a and $b"
+    case a :: Nil         => s"A Single element list of $a"
+    case Nil              => "The Empty list"
+
+matchLists(List(1, 2, 3, 4))
+matchLists(List(2,4,5,6))
+matchLists(List(1))
+matchLists(List())
+
+
+def matchVectors(v: Vector[Int]): String = v match
+    case 1 +: 2 +: rest   => s"A 1, 2 vector followed by $rest"
+    case Vector(a, b, rest @  _*) => s"A vector with at least 2 elements, starting with $a and $b and the rest is $rest"
+    case Vector(a)        => s"A Single element vector of $a"
+    case Vector()         => "The Empty vector"
+
+matchVectors(Vector(1, 2, 3, 4))
+matchVectors(Vector(2,4,5,6))
+matchVectors(Vector(1))
+matchVectors(Vector())
