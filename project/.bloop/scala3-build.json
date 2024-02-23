@@ -1,16 +1,16 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "scalaproject-build",
-        "directory": "/home/ali/code/scalaproject/project",
-        "workspaceDir": "/home/ali/code/scalaproject/project",
+        "name": "scala3-build",
+        "directory": "/home/ali/code/scalaproject/scala3/project",
+        "workspaceDir": "/home/ali/code/scalaproject/scala3/project",
         "sources": [
-            "/home/ali/code/scalaproject/project/src/main/scala",
-            "/home/ali/code/scalaproject/project/src/main/scala-2.12",
-            "/home/ali/code/scalaproject/project/src/main/scala-2",
-            "/home/ali/code/scalaproject/project/src/main/java",
-            "/home/ali/code/scalaproject/project/src/main/scala-sbt-1.0",
-            "/home/ali/code/scalaproject/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/home/ali/code/scalaproject/scala3/project/src/main/scala",
+            "/home/ali/code/scalaproject/scala3/project/src/main/scala-2.12",
+            "/home/ali/code/scalaproject/scala3/project/src/main/scala-2",
+            "/home/ali/code/scalaproject/scala3/project/src/main/java",
+            "/home/ali/code/scalaproject/scala3/project/src/main/scala-sbt-1.0",
+            "/home/ali/code/scalaproject/scala3/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -103,11 +103,11 @@
             "/home/ali/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/home/ali/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/home/ali/code/scalaproject/project/.bloop/scalaproject-build",
-        "classesDir": "/home/ali/code/scalaproject/project/.bloop/scalaproject-build/scala-2.12/sbt-1.0/classes",
+        "out": "/home/ali/code/scalaproject/scala3/project/.bloop/scala3-build",
+        "classesDir": "/home/ali/code/scalaproject/scala3/project/.bloop/scala3-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/home/ali/code/scalaproject/project/src/main/resources",
-            "/home/ali/code/scalaproject/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/home/ali/code/scalaproject/scala3/project/src/main/resources",
+            "/home/ali/code/scalaproject/scala3/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -214,7 +214,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-11-openjdk",
                 "options": [
-                    "-Duser.dir=/home/ali/code/scalaproject/project"
+                    "-Duser.dir=/home/ali/code/scalaproject/scala3/project"
                 ]
             },
             "mainClass": [
@@ -223,11 +223,11 @@
             "runtimeConfig": {
                 "home": "/usr/lib/jvm/java-11-openjdk",
                 "options": [
-                    "-Duser.dir=/home/ali/code/scalaproject/project"
+                    "-Duser.dir=/home/ali/code/scalaproject/scala3/project"
                 ]
             },
             "classpath": [
-                "/home/ali/code/scalaproject/project/.bloop/scalaproject-build/scala-2.12/sbt-1.0/classes",
+                "/home/ali/code/scalaproject/scala3/project/.bloop/scala3-build/scala-2.12/sbt-1.0/classes",
                 "/home/ali/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15.jar",
                 "/home/ali/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",
                 "/home/ali/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",
