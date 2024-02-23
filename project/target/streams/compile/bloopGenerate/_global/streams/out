@@ -1,0 +1,4 @@
+[debug] [scalaproject-build] Classpath dependencies List()
+[debug] [scalaproject-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scalaproject-build' to '/home/ali/code/scalaproject/project/.bloop/scalaproject-build.json'
+[success] Generated .bloop/scalaproject-build.json
