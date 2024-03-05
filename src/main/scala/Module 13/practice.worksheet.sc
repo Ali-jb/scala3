@@ -226,3 +226,6 @@ val zipped = words.zipAll(nums, None, -1)
 val (unzippedWords, unzippedNums) = zipped.unzip
 
 //_________________________________________________________________________________
+
+numWords.keys
+
