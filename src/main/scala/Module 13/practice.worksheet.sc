@@ -227,5 +227,3 @@ val (unzippedWords, unzippedNums) = zipped.unzip
 
 //_________________________________________________________________________________
 
-numWords.keys
-
