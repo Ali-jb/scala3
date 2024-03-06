@@ -132,9 +132,9 @@ nums.foldLeft(1)(_ * _)
 nums.product
 
 //these methods are depricated
-(0 /: nums)(_ + _)
+// (0 /: nums)(_ + _)
 
-(nums :\ 0)(_ + _)
+// (nums :\ 0)(_ + _)
 
 words.foldLeft("")(_ + "," + _)
 words.foldRight("")(_ + "," + _) //fold right is less efficient
